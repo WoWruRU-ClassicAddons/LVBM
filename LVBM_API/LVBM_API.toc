@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: |cff0055FFLa Vendetta Boss Mod API|r
 ## Notes: Application Programming Interface for LVBM
+## Notes-ruRU: API для LVBM
 ## SavedVariables: LVBM_SavedVars, LVBMInfoFramePositio
 ## LoadOnDemand: 0
 ## DefaultState: enabled
@@ -12,6 +13,7 @@ localization.de.lua
 localization.fr.lua
 localization.cn.lua
 localization.tw.lua
+localization.ru.lua
 Patchnotes.lua
 LVBM_API.lua
 LVBM_API.xml

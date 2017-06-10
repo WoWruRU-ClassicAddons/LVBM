@@ -16,11 +16,12 @@ LVBM.AddOns.Majordomo = {
 	["IsShielding"] = false,
 	["IsFading"] = false,
 	["Events"] = {
+		["CHAT_MSG_SPELL_PERIODIC_CREATURE_DAMAGE"] = true,
 		["CHAT_MSG_SPELL_PERIODIC_CREATURE_BUFFS"] = true,
 		["CHAT_MSG_SPELL_AURA_GONE_OTHER"] = true,
 	},	
 	["OnEvent"] = function(event, arg1) 
-		if ( event == "CHAT_MSG_SPELL_PERIODIC_CREATURE_BUFFS" ) and not LVBM.AddOns.Majordomo.IsShielding then
+		if ( event == "CHAT_MSG_SPELL_PERIODIC_CREATURE_BUFFS" or event == "CHAT_MSG_SPELL_PERIODIC_CREATURE_DAMAGE" ) and not LVBM.AddOns.Majordomo.IsShielding then -- добавленно CHAT_MSG_SPELL_PERIODIC_CREATURE_DAMAGE
 			if ( string.find(arg1, LVBM_DOMO_GAIN_DAMAGE) and LVBM.AddOns.Majordomo.Shield ~= LVBM_DOMO_DAMAGE_SHIELD ) then
 				LVBM.AddOns.Majordomo.IsShielding = true;
 				LVBM.AddOns.Majordomo.Shield = LVBM_DOMO_DAMAGE_SHIELD;

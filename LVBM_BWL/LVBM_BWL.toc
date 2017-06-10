@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: |cff0055FFLa Vendetta BWL Mods|r
 ## Notes: Boss Mods for BlackWingLair
+## Notes-ruRU: Босс модуль для Логова Крыла Тьмы
 ## Author: Tandanu and Nitram
 ## LoadOnDemand: 1
 ## RequiredDeps: LVBM_API
@@ -9,6 +10,7 @@ localization.de.lua
 localization.fr.lua
 localization.tw.lua
 localization.cn.lua
+localization.ru.lua
 LVRazorgore.lua
 LVVaelastrasz.lua
 LVFiremaw.lua

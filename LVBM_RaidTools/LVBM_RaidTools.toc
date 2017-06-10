@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: |cff0055FFLa Vendetta Raid Tools|r
 ## Notes: Raid Tools for the LVBM
+## Notes-ruRU: Рейдовый инструментарий для LVBM
 ## RequiredDeps: LVBM_API 
 ## LoadOnDemand: 0
 ## DefaultState: enabled
@@ -9,4 +10,5 @@
 ## Version: 0.1
 ## URL: http://www.deadlyminds.net
 localization.en.lua
+localization.ru.lua
 LVBM_RaidTools.xml

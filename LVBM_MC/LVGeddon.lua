@@ -30,6 +30,7 @@ LVBM.AddOns.Geddon = {
 		["CHAT_MSG_SPELL_PERIODIC_PARTY_DAMAGE"] = true,
 		["CHAT_MSG_SPELL_PERIODIC_SELF_DAMAGE"] = true,
 		["CHAT_MSG_SPELL_PERIODIC_CREATURE_BUFFS"] = true,
+		["CHAT_MSG_SPELL_PERIODIC_CREATURE_DAMAGE"] = true,
 	},	
 	["OnCombatEnd"] = function()
 		if( LVBM.AddOns.Geddon.Options.SetIcon ) then
@@ -68,7 +69,7 @@ LVBM.AddOns.Geddon = {
 					end	
 				end
 			end
-		elseif ( event == "CHAT_MSG_SPELL_PERIODIC_CREATURE_BUFFS" ) then
+		elseif ( event == "CHAT_MSG_SPELL_PERIODIC_CREATURE_BUFFS" or event == "CHAT_MSG_SPELL_PERIODIC_CREATURE_DAMAGE") then -- было только CHAT_MSG_SPELL_PERIODIC_CREATURE_BUFFS. Исправленно для серв. valkyrie
 			if arg1 == LVBM_BARON_INFERNO then
 				LVBM.Announce(LVBM_BARON_INFERNO_WARNING);
 				LVBM.StartStatusBarTimer(8, "Inferno");

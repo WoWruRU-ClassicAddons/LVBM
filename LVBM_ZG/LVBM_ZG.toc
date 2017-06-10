@@ -1,12 +1,14 @@
 ## Interface: 11200
 ## Title: |cff0055FFLa Vendetta ZG Mods|r
 ## Notes: Boss Mods for Zul'Gurub
+## Notes-ruRU: Босс модуль для Зул'Гуруба
 ## Author: Tandanu and Nitram
 ## LoadOnDemand: 1
 ## RequiredDeps: LVBM_API
 localization.en.lua
 localization.de.lua
 localization.tw.lua
+localization.ru.lua
 LVJeklik.lua
 LVVenoxis.lua
 LVMarli.lua

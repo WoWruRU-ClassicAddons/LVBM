@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: |cff0055FFLa Vendetta Boss Mod GUI|r
 ## Notes: Graphical Interface for LVBM
+## Notes-ruRU: Графический интерфейс для LVBM
 ## RequiredDeps: LVBM_API 
 ## LoadOnDemand: 0
 ## DefaultState: enabled

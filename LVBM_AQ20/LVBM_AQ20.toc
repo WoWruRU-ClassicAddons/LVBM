@@ -1,12 +1,14 @@
 ## Interface: 11200
 ## Title: |cff0055FFLa Vendetta AQ20 Mods|r
 ## Notes: Boss Mods for AQ20 (Ruins)
+## Notes-ruRU: Босс модуль для Руин Ан'Киража (АК20)
 ## Author: Tandanu and Nitram
 ## LoadOnDemand: 1
 ## RequiredDeps: LVBM_API
 localization.en.lua
 localization.de.lua
 localization.tw.lua
+localization.ru.lua
 LVRajaxx.lua
 LVMoam.lua
 LVBuru.lua

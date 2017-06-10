@@ -27,7 +27,7 @@ LVBM.AddOns.Shazzrah = {
 			if ( string.find(arg1, LVBM_SHAZZRAH_CURSE_REGEXP) ) and not LVBM.AddOns.Shazzrah.Curse then
 				LVBM.AddOns.Shazzrah.Curse = true;
 				LVBM.Announce(LVBM_SHAZZRAH_CURSE_WARNING);
-				LVBM.Schedule(15, "LVBM.AddOns.Lucifron.OnEvent", "CurseWarning", 5);
+				LVBM.Schedule(15, "LVBM.AddOns.Shazzrah.OnEvent", "CurseWarning", 5);
 				LVBM.EndStatusBarTimer("Curse");
 				LVBM.StartStatusBarTimer(20, "Curse");
 			end

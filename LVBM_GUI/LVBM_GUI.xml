@@ -5,6 +5,7 @@
 	<Script file="LVBM_GUI.lua"/>
 	<Script file="LVBM_GUI_InfoFrame.lua"/>
 	<Script file="localization.gui.en.lua"/><!-- Default Language -->
+	<Script file="localization.gui.ru.lua"/>
 	<Script file="localization.gui.de.lua"/>
 	<Script file="localization.gui.fr.lua"/>
 	<Script file="localization.gui.tw.lua"/>

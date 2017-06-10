@@ -1,4 +1,4 @@
-if (GetLocale() == "enGB") or (GetLocale() == "enUS") then	
+if (GetLocale() == "enGB") then	
 	TMP_YELL_1 = "";
 	TMP_YELL_2 = "";	
 	TMP_YELL_3 = "";

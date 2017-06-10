@@ -29,7 +29,7 @@ LVBM.AddOns.Nefarian = {
 		},
 		[3] = {
 			["variable"] = "LVBM.AddOns.Nefarian.Options.SyncKills",
-			["text"] = "Sync Drakonid Kills in Phase1",
+			["text"] = LVBM_NEFARIAN_SYNCKILLS_INFO,
 			["func"] = function() LVBM.AddOns.Nefarian.Options.SyncKills = not LVBM.AddOns.Nefarian.Options.SyncKills; end,
 		},
 	},

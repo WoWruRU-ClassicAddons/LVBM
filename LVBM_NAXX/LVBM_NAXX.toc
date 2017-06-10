@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: |cff0055FFLa Vendetta Naxx Mods|r
 ## Notes: Boss Mods for Naxxramas
+## Notes-ruRU: Босс модуль для Наксрамаса
 ## Author: Tandanu and Nitram
 ## LoadOnDemand: 1
 ## RequiredDeps: LVBM_API
@@ -8,6 +9,7 @@ localization.en.lua
 localization.de.lua
 localization.cn.lua
 localization.tw.lua
+localization.ru.lua
 Spider\LVAnubRekhan.lua
 Spider\LVGrandWidowFaerlina.lua
 Spider\LVMaexxna.lua

@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: |cff0055FFLa Vendetta AQ40 Mods|r
 ## Notes: Boss Mods for AQ40 (Temple)
+## Notes-ruRU: Босс модуль для Храма Ан'Кираж (АК40)
 ## Author: Tandanu and Nitram
 ## LoadOnDemand: 1
 ## RequiredDeps: LVBM_API
@@ -9,6 +10,7 @@ localization.de.lua
 localization.tw.lua
 localization.cn.lua
 localization.fr.lua
+localization.ru.lua
 LVSkeram.lua
 LVThreeBugs.lua
 LVSartura.lua
